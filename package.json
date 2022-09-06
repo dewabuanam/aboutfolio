@@ -1,0 +1,40 @@
+{
+  "name": "aboutfolio",
+  "version": "0.1.0",
+  "description": "Aboutfolio will help to generate a personal about website where you could show your journey and share about yourself.",
+  "main": "build.js",
+  "bin": "bin/aboutfolio.js",
+  "scripts": {
+    "cli": "OUT_DIR='./dist' node bin/aboutfolio.js",
+    "clean": "rm -rf ./dist/*",
+    "prettier": "prettier --write \"./**/*.{js,jsx,json,html,css,md}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Dewa Muharmadin",
+    "email": "dewabuanam@gmail.com",
+    "url": "https://dewabuanam.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dewabuanam/aboutfolio.git"
+  },
+  "keywords": [
+    "personal website",
+    "portfolio",
+    "portfolio website",
+    "blog website",
+    "blog",
+    "aboutfolio",
+    "about page",
+    "about me page"
+  ],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dewabuanam/aboutfolio/issues"
+  },
+  "homepage": "https://github.com/dewabuanam/aboutfolio#readme",
+  "dependencies": {
+    "prettier": "^1.18.2"
+  }
+}
