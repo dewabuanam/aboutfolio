@@ -4,6 +4,7 @@ This repository still on development phase.
 # Aboutfolio
 ![GitHub last commit](https://img.shields.io/github/last-commit/dewabuanam/aboutfolio.svg?style=popout-square)
 ![GitHub](https://img.shields.io/github/license/dewabuanam/aboutfolio.svg?style=popout-square)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ## Personal Website and About Page
 Aboutfolio will help to generate a personal about website where you could show your journey and share about yourself.
