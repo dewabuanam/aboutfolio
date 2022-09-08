@@ -35,6 +35,7 @@
   },
   "homepage": "https://github.com/dewabuanam/aboutfolio#readme",
   "dependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "commander": "^2.20.0"
   }
 }
