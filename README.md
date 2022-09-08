@@ -120,6 +120,19 @@ To order the sorted repos provide `--order [orderBy]` argument while building. W
 $ aboutfolio gitbuild <username> --sort star --order desc
 ```
 
+#### Blog Customization
+```sh
+aboutfolio gitbuild <username> --blog [array]
+```
+Blog are specified using the `--blog [array]` or `--bl [array]` flag when running the `gitbuild` command.
+
+Example with format array `[{'<blog_title>','<blog_date>','<content>'}]`. 
+
+```sh 
+aboutfolio gitbuild <username> --blog "[{'Blog title', '01/01/1989','content'}]" 
+```
+
+
 ### 3. Using Input Only
 You can create your personal website using input only with these customization. some of these customization is same written as before.
 The main difference is you should change `gitbuild <username>` into `build`. Example : 
@@ -178,6 +191,8 @@ To order the project specified must use `--project [array]` argument while build
 ```sh
 $ aboutfolio build --project "[{'Project Name', '01/01/1989','www.projecturl.com','description'}]" --order desc
 ```
+
+[Blog Customization](https://github.com/dewabuanam/aboutfolio#blog-customization)
 
 
 ## Let's Run
